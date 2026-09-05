@@ -5,36 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="TechBridge - Bridging Learning to Real-World Experience">
     <title>TechBridge | Real-World Learning Experience</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Premium Background -->
+<div class="background-paths" aria-hidden="true">
+    <span class="path path-1"></span>
+    <span class="path path-2"></span>
+    <span class="path path-3"></span>
+    <span class="path path-4"></span>
+    <span class="path path-5"></span>
+    <span class="path path-6"></span>
 
+    <span class="background-glow glow-purple"></span>
+    <span class="background-glow glow-green"></span>
+</div>
+
+    <!-- Header -->
     <header class="header">
         <div class="container nav">
-            <a href="#home" class="logo">
+
+            <a href="index.html" class="logo">
                 <img src="images/techbridge-logo.png" alt="TechBridge">
             </a>
 
             <nav>
                 <a href="#about">About</a>
-                <a href="#programs">Programs</a>
+                <a href="programs.html">Programs</a>
                 <a href="#internship">Internship</a>
                 <a href="#contact">Contact</a>
             </nav>
 
-            <a href="#apply" class="button button-small">Apply Now</a>
+            <div class="nav-actions">
+
+                <!-- Dark Mode Toggle -->
+                <label class="theme-toggle" aria-label="Toggle dark mode">
+                    <input type="checkbox" id="theme-switch">
+
+                    <span class="toggle-slider">
+                        <span class="sun">☀</span>
+                        <span class="moon">☾</span>
+                    </span>
+                </label>
+
+                <a
+                    href="https://drive.google.com/drive/folders/1nJm-qwAUnjwTS6Gy0MjuxHRJso44QLZa?usp=drive_link&utm_source=chatgpt.com"
+                    class="button button-small"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Apply Now
+                </a>
+
+            </div>
+
         </div>
     </header>
 
 
     <main>
 
+        <!-- Hero -->
         <section class="hero" id="home">
+
             <div class="container hero-grid">
 
                 <div class="hero-content">
-                    <p class="label">TECHBRIDGE BY BASELINK SERVICES LIMITED</p>
+
+                    <p class="eyebrow">
+                        TECHBRIDGE BY BASELINK SERVICES LIMITED
+                    </p>
 
                     <h1>
                         Bridging Learning
@@ -48,39 +94,74 @@
                     </p>
 
                     <div class="hero-buttons">
-                        <a href="#apply" class="button">Apply for Internship</a>
-                        <a href="#programs" class="button button-outline">
+
+                        <a
+                            href="https://drive.google.com/drive/folders/1nJm-qwAUnjwTS6Gy0MjuxHRJso44QLZa?usp=drive_link&utm_source=chatgpt.com"
+                            class="button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Apply for Internship
+                        </a>
+
+                        <a
+                            href="programs.html"
+                            class="button button-outline"
+                        >
                             Explore Programs
                         </a>
+
                     </div>
+
                 </div>
 
+
                 <div class="hero-visual">
-                    <div class="visual-circle purple-circle"></div>
-                    <div class="visual-circle green-circle"></div>
+
+                    <div class="hero-circle"></div>
+
+                    <div class="hero-circle-small"></div>
 
                     <div class="experience-card">
-                        <span>30 DAYS</span>
+
+                        <span class="card-label">30 DAYS</span>
+
                         <h2>Learn.</h2>
                         <h2>Build.</h2>
                         <h2>Grow.</h2>
-                        <p>Practical experience for your next step.</p>
+
+                        <p>
+                            Practical experience for your next step.
+                        </p>
+
                     </div>
+
                 </div>
 
             </div>
+
         </section>
 
 
+        <!-- About -->
         <section class="about section" id="about">
-            <div class="container two-column">
+
+            <div class="container about-grid">
 
                 <div class="section-title">
-                    <p class="label">ABOUT TECHBRIDGE</p>
-                    <h2>Turning learning into practical experience.</h2>
+
+                    <p class="eyebrow">
+                        ABOUT TECHBRIDGE
+                    </p>
+
+                    <h2>
+                        Turning learning into practical experience.
+                    </h2>
+
                 </div>
 
-                <div class="section-text">
+                <div class="about-content">
+
                     <p>
                         TechBridge is an internship and learning initiative
                         focused on helping aspiring professionals bridge the
@@ -93,75 +174,111 @@
                         technical skills, build confidence, and gain experience
                         that contributes to their professional growth.
                     </p>
+
                 </div>
 
             </div>
+
         </section>
 
 
+        <!-- Programs -->
         <section class="programs section" id="programs">
+
             <div class="container">
 
-                <div class="section-title program-heading">
-                    <p class="label">CURRENT PROGRAMS</p>
-                    <h2>Choose a path. Build real skills.</h2>
+                <div class="section-title">
+
+                    <p class="eyebrow">
+                        CURRENT PROGRAMS
+                    </p>
+
+                    <h2>
+                        Choose a path. Build real skills.
+                    </h2>
+
                 </div>
+
 
                 <div class="program-grid">
 
                     <article class="program-card">
+
                         <div class="card-top">
                             <span>01</span>
                             <span class="arrow">↗</span>
                         </div>
 
                         <div>
+
                             <h3>Data Analytics</h3>
+
                             <p>
                                 Develop practical skills for working with data
                                 and turning information into useful insights.
                             </p>
+
                         </div>
 
-                        <a href="#apply" class="card-link">
-                            Learn more <span>→</span>
+                        <a
+                            href="programs.html"
+                            class="program-card-link"
+                        >
+                            Learn more →
                         </a>
+
                     </article>
 
 
                     <article class="program-card featured">
+
                         <div class="card-top">
                             <span>02</span>
                             <span class="arrow">↗</span>
                         </div>
 
                         <div>
+
                             <h3>Web Development</h3>
+
                             <p>
                                 Learn to create responsive websites and build
                                 practical digital experiences using modern web
                                 technologies.
                             </p>
+
                         </div>
 
-                        <a href="#apply" class="card-link">
-                            Learn more <span>→</span>
+                        <a
+                            href="programs.html"
+                            class="program-card-link"
+                        >
+                            Learn more →
                         </a>
+
                     </article>
 
                 </div>
 
             </div>
+
         </section>
 
 
+        <!-- Internship -->
         <section class="internship section" id="internship">
+
             <div class="container internship-grid">
 
                 <div class="internship-content">
-                    <p class="label">30-DAY PRACTICAL INTERNSHIP</p>
 
-                    <h2>Learn by doing, not just watching.</h2>
+                    <p class="eyebrow">
+                        30-DAY PRACTICAL INTERNSHIP
+                    </p>
+
+                    <h2>
+                        Learn by doing, not just watching.
+                    </h2>
 
                     <p>
                         The TechBridge 30-Day Practical Internship gives
@@ -170,60 +287,92 @@
                         real-world technical experience.
                     </p>
 
-                    <a href="#apply" class="button">
+                    <a
+                        href="https://drive.google.com/drive/folders/1nJm-qwAUnjwTS6Gy0MjuxHRJso44QLZa?usp=drive_link&utm_source=chatgpt.com"
+                        class="button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Start Your Application
                     </a>
+
                 </div>
 
 
                 <div class="benefits">
 
                     <div class="benefit">
+
                         <span>01</span>
+
                         <div>
+
                             <h3>Practical Projects</h3>
+
                             <p>
                                 Work through tasks designed around practical
                                 application of your skills.
                             </p>
+
                         </div>
+
                     </div>
 
+
                     <div class="benefit">
+
                         <span>02</span>
+
                         <div>
+
                             <h3>Real-World Experience</h3>
+
                             <p>
                                 Apply what you learn through practical
                                 activities and projects.
                             </p>
+
                         </div>
+
                     </div>
 
+
                     <div class="benefit">
+
                         <span>03</span>
+
                         <div>
+
                             <h3>Recommendation Letter</h3>
+
                             <p>
                                 Successful participation and performance may
                                 qualify you for a recommendation letter.
                             </p>
+
                         </div>
+
                     </div>
 
                 </div>
 
             </div>
+
         </section>
 
 
+        <!-- Application -->
         <section class="apply section" id="apply">
+
             <div class="container">
 
                 <div class="apply-box">
 
                     <div>
-                        <p class="label">READY TO BEGIN?</p>
+
+                        <p class="eyebrow">
+                            READY TO BEGIN?
+                        </p>
 
                         <h2>
                             Take the next step in your
@@ -235,10 +384,18 @@
                             community focused on learning, building, and
                             growing.
                         </p>
+
                     </div>
 
-                    <div class="apply-buttons">
-                        <a href="#" class="button">
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="https://drive.google.com/drive/folders/1nJm-qwAUnjwTS6Gy0MjuxHRJso44QLZa?usp=drive_link&utm_source=chatgpt.com"
+                            class="button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Apply for Internship
                         </a>
 
@@ -250,20 +407,31 @@
                         >
                             Join WhatsApp Community
                         </a>
+
                     </div>
 
                 </div>
 
             </div>
+
         </section>
 
 
+        <!-- Contact -->
         <section class="contact section" id="contact">
+
             <div class="container contact-row">
 
                 <div>
-                    <p class="label">CONTACT</p>
-                    <h2>Have a question?</h2>
+
+                    <p class="eyebrow">
+                        CONTACT
+                    </p>
+
+                    <h2>
+                        Have a question?
+                    </h2>
+
                 </div>
 
                 <a
@@ -274,41 +442,61 @@
                 </a>
 
             </div>
+
         </section>
 
     </main>
 
 
+    <!-- Footer -->
     <footer class="footer">
+
         <div class="container">
 
-            <div class="footer-main">
+            <div class="footer-content">
 
                 <div>
-                    <a href="#home" class="logo">
-                        <img src="images/techbridge-logo.png" alt="TechBridge">
+
+                    <a href="index.html" class="logo">
+                        <img
+                            src="images/techbridge-logo.png"
+                            alt="TechBridge"
+                        >
                     </a>
 
                     <p>
                         Bridging Learning to Real-World Experience
                     </p>
+
                 </div>
 
+
                 <div class="footer-nav">
+
                     <a href="#about">About</a>
-                    <a href="#programs">Programs</a>
+                    <a href="programs.html">Programs</a>
                     <a href="#internship">Internship</a>
                     <a href="#contact">Contact</a>
+
                 </div>
 
             </div>
 
+
             <div class="footer-bottom">
-                <p>TechBridge by Baselink Services Limited</p>
-                <p>© 2026 TechBridge. All rights reserved.</p>
+
+                <p>
+                    TechBridge by Baselink Services Limited
+                </p>
+
+                <p>
+                    © 2026 TechBridge. All rights reserved.
+                </p>
+
             </div>
 
         </div>
+
     </footer>
 
 </body>
