@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the interactive TechBridge 30-Day Internship roadmap for Data Analytics and Web Development.">
+    <title>Internship Roadmap | TechBridge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-paths" aria-hidden="true">
+        <span class="path path-1"></span>
+        <span class="path path-2"></span>
+        <span class="path path-3"></span>
+        <span class="path path-4"></span>
+        <span class="path path-5"></span>
+        <span class="path path-6"></span>
+        <span class="background-glow glow-purple"></span>
+        <span class="background-glow glow-green"></span>
+    </div>
+
+    <header class="header">
+        <div class="container nav">
+            <a href="index.html" class="logo">
+                <img src="images/techbridge-logo.png" alt="TechBridge">
+            </a>
+            <nav>
+                <a href="index.html#about">About</a>
+                <a href="programs.html">Programs</a>
+                <a href="internship-tasks.html">Internship Tasks</a>
+                <a href="internship-roadmap.html" aria-current="page">Roadmap</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <label class="theme-toggle" aria-label="Toggle dark mode">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="toggle-slider"><span class="sun">☀</span><span class="moon">☾</span></span>
+                </label>
+                <a href="https://drive.google.com/drive/folders/1nJm-qwAUnjwTS6Gy0MjuxHRJso44QLZa?usp=drive_link&utm_source=chatgpt.com" class="button button-small" target="_blank" rel="noopener noreferrer">Apply Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="roadmap-hero">
+            <div class="container roadmap-hero-content">
+                <span class="eyebrow">TECHBRIDGE 30-DAY INTERNSHIP</span>
+                <h1>Choose your track.<br><span>Follow the journey.</span></h1>
+                <p>Explore all eight practical tasks in either the Data Analytics or Web Development track. Switch between tracks instantly and see how the 30-day experience progresses.</p>
+
+                <div class="track-switcher" role="tablist" aria-label="Internship tracks">
+                    <button class="track-button" type="button" data-track="dataAnalytics" role="tab" aria-selected="false">Data Analytics</button>
+                    <button class="track-button active" type="button" data-track="webDevelopment" role="tab" aria-selected="true">Web Development</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section roadmap-section">
+            <div class="container">
+                <div class="roadmap-current">
+                    <div>
+                        <span class="eyebrow">CURRENTLY VIEWING</span>
+                        <h2 id="track-title">Web Development</h2>
+                    </div>
+                    <p id="track-description">Build practical web experiences from a homepage to a complete TechBridge internship platform.</p>
+                </div>
+
+                <div class="journey-stats roadmap-stats">
+                    <div class="journey-stat"><strong>30</strong><span>Days</span></div>
+                    <div class="journey-stat"><strong>2</strong><span>Tracks</span></div>
+                    <div class="journey-stat"><strong>8</strong><span>Tasks per track</span></div>
+                </div>
+
+                <div class="roadmap-intro">
+                    <span class="eyebrow">TASK ROADMAP</span>
+                    <h2>Eight steps. <span>One practical progression.</span></h2>
+                    <p>Every task has a defined day, focus, and difficulty level so the full internship journey is easy to understand at a glance.</p>
+                </div>
+
+                <div id="task-list" class="interactive-roadmap" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="section roadmap-cta">
+            <div class="container">
+                <div class="journey-cta-box">
+                    <span class="eyebrow">READY TO START?</span>
+                    <h2>Build skills through <span>real practical tasks.</span></h2>
+                    <p>Move through the TechBridge internship journey one task at a time and build a portfolio of practical work.</p>
+                    <div class="hero-buttons">
+                        <a href="internship-tasks.html" class="button button-white">View Internship Tasks</a>
+                        <a href="programs.html" class="button button-outline">Explore Programs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <a href="index.html" class="logo"><img src="images/techbridge-logo.png" alt="TechBridge"></a>
+                    <p>Practical learning, real projects, and a clear path toward professional growth.</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="index.html#about">About</a>
+                    <a href="programs.html">Programs</a>
+                    <a href="internship-tasks.html">Internship Tasks</a>
+                    <a href="internship-roadmap.html">Roadmap</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 TechBridge. All rights reserved.</p>
+                <p>30-Day Internship Experience</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
